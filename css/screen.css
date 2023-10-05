@@ -214,7 +214,7 @@ main {
 }
 
 h1 {
-  font-size: 1.667em;
+  font-size: 37px;
   padding: 45px;
   text-align: center;
 }
@@ -241,3 +241,28 @@ p {
 }
 
 /* ===== STATE STYLES ====== */
+@media (max-width: 650px) {
+  html {
+    font-size: 22px;
+    line-height: 19px;
+    padding: 16px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #3E3E3E;
+  }
+
+  main {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  h1 {
+    font-size: 30px;
+    padding-bottom: 16px;
+  }
+
+  p {
+    padding-bottom: 16px;
+  }
+}
