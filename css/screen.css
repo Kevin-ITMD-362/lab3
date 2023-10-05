@@ -196,6 +196,8 @@ html {
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #3E3E3E;
 }
 
 label {
@@ -203,6 +205,39 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+main {
+  width: 650px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+}
 
+h1 {
+  font-size: 1.667em;
+  padding: 45px;
+  text-align: center;
+}
 
-/* ===== STATE STYLES ======= */
+p {
+  text-align: center;
+  padding-bottom: 20px;
+} 
+
+#input-email label {
+  margin: auto;
+  text-align: center;
+  vertical-align: center;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+#input-age-verification label {
+  margin: auto;
+  text-align: center;
+  vertical-align: center;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+/* ===== STATE STYLES ====== */
