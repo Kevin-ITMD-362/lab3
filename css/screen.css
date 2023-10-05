@@ -251,18 +251,22 @@ p {
   }
 
   main {
+    color: white;
     margin: auto;
     text-align: center;
     display: flex;
     flex-wrap: nowrap;
+    background-color: #3E3E3E;
   }
 
   h1 {
     font-size: 30px;
     padding-bottom: 16px;
+    background-color: #3E3E3E;
   }
 
   p {
     padding-bottom: 16px;
+    background-color: #3E3E3E;
   }
 }
